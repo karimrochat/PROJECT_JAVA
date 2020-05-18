@@ -10,6 +10,6 @@ public class main {
         ConfigLoader config = new ConfigLoader();
 
         config.load(new File("letexto.txt"));
-
+        System.out.println("ok");
     }
 }
